@@ -5,7 +5,7 @@
 		  <div class="navbar-fixed">
 		      <nav class="gs-login-header">
 			    <div class="nav-wrapper container">
-			      <a href="#!" class="brand-logo">GR Gimnasio</a>
+			      <a href="#!" class="brand-logo">CR Gimnasio</a>
 			      	<?= form_open('admin/login') ?>
 			      		 <ul id="mobile-demo" class="right hide-on-med-and-down">
 					        <li>
