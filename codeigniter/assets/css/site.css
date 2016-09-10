@@ -1,0 +1,194 @@
+/*Common design for all page start*/
+/* line 3, ../sass/site.scss */
+.gs-login {
+  background: url("/assets/img/collage-07.jpg");
+}
+/* line 5, ../sass/site.scss */
+.gs-login nav {
+  background-color: #2c3e50;
+}
+
+/*Common design for all page end*/
+/*design for login page start*/
+/* line 14, ../sass/site.scss */
+.gs-login-header li {
+  margin-left: 20px;
+}
+/* line 17, ../sass/site.scss */
+.gs-login-header input {
+  border-style: none none solid !important;
+  border-width: medium medium 1px !important;
+}
+/* line 22, ../sass/site.scss */
+.gs-login-header .input-field input {
+  padding-left: 0rem;
+  font-size: 1rem;
+}
+/* line 26, ../sass/site.scss */
+.gs-login-header .btn {
+  background: transparent;
+}
+/* line 28, ../sass/site.scss */
+.gs-login-header .btn input {
+  font-size: 15px;
+  position: relative;
+  top: -3px;
+  border-style: none;
+  border-width: 0px !important;
+}
+
+/* line 40, ../sass/site.scss */
+.gs-lc-inner {
+  background: rgba(52, 74, 128, 0.5);
+}
+
+/*design for login page end*/
+/*side nav start*/
+/* line 47, ../sass/site.scss */
+.gs-sidenav {
+  margin-top: 64px;
+  height: 90%;
+}
+
+/* line 51, ../sass/site.scss */
+.side-nav .userView .circle {
+  height: 120px;
+  width: 120px;
+}
+
+/*side nav end*/
+/*add member start*/
+/* line 58, ../sass/site.scss */
+.tabs .tab a {
+  color: #2c3e50;
+}
+
+/* line 62, ../sass/site.scss */
+.tabs .tab a:hover {
+  color: #6c7986;
+}
+
+/* line 66, ../sass/site.scss */
+.tabs .indicator {
+  background: #2c3e50;
+}
+
+/* line 73, ../sass/site.scss */
+[type="radio"]:not(:checked), [type="radio"]:checked {
+  position: static;
+  left: -9999px;
+  opacity: 1;
+}
+
+/*Dashboard design Start*/
+/* line 82, ../sass/site.scss */
+.gs-dashboard {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  color: #fff;
+  min-height: 700px;
+}
+/* line 88, ../sass/site.scss */
+.gs-dashboard nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 0;
+}
+/* line 93, ../sass/site.scss */
+.gs-dashboard .side-nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 0;
+}
+/* line 96, ../sass/site.scss */
+.gs-dashboard .side-nav i, .gs-dashboard .side-nav a {
+  color: #fff;
+}
+/* line 99, ../sass/site.scss */
+.gs-dashboard .side-nav li:nth-child(01) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 101, ../sass/site.scss */
+.gs-dashboard .side-nav li:nth-child(01) a span {
+  color: #fff;
+}
+/* line 105, ../sass/site.scss */
+.gs-dashboard .side-nav li > a > i, .gs-dashboard .side-nav li > a > [class^="mdi-"], .gs-dashboard .side-nav li > a > [class*="mdi-"], .gs-dashboard .side-nav li > a > i.material-icons {
+  margin: 0;
+}
+/* line 109, ../sass/site.scss */
+.gs-dashboard .card {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+}
+/* line 117, ../sass/site.scss */
+.gs-dashboard .row .col.l10 {
+  margin-left: 4%;
+  width: 78.333%;
+}
+/* line 122, ../sass/site.scss */
+.gs-dashboard .gs-menu-left-item li:nth-child(1) {
+  width: 260px;
+}
+/* line 125, ../sass/site.scss */
+.gs-dashboard .gs-menu-left-item li:nth-child(2) {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 127, ../sass/site.scss */
+.gs-dashboard .gs-menu-left-item li:nth-child(2) input {
+  margin: 0;
+}
+/* line 131, ../sass/site.scss */
+.gs-dashboard .gs-name-filter {
+  padding: 30px 0;
+}
+/* line 134, ../sass/site.scss */
+.gs-dashboard .gs-menu-right-item li {
+  width: 70px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+/* line 141, ../sass/site.scss */
+.gs-dashboard .gs-day-filter li {
+  float: left;
+  width: 49%;
+  margin-left: 1px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+/* line 149, ../sass/site.scss */
+.gs-dashboard .gs-circle-info ul {
+  text-align: center;
+}
+/* line 152, ../sass/site.scss */
+.gs-dashboard .gs-circle-info li:nth-child(1) {
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 70px;
+}
+/* line 159, ../sass/site.scss */
+.gs-dashboard .gs-circle-info li:nth-child(1) p {
+  line-height: 50px;
+}
+/* line 163, ../sass/site.scss */
+.gs-dashboard .card.small {
+  height: auto;
+}
+/* line 167, ../sass/site.scss */
+.gs-dashboard .tabs {
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 8px;
+}
+/* line 170, ../sass/site.scss */
+.gs-dashboard .tabs a {
+  color: #fff;
+}
+/* line 175, ../sass/site.scss */
+.gs-dashboard .tabs .indicator {
+  background: #fff;
+}
+
+/*Dashboard design End*/

@@ -1,0 +1,179 @@
+/*Common design for all page start*/
+
+.gs-login{
+	background: url('/assets/img/collage-07.jpg');	
+	nav{
+		background-color: #2c3e50;
+	}
+}
+
+/*Common design for all page end*/
+
+/*design for login page start*/
+.gs-login-header{
+	li{
+		margin-left: 20px;
+	}
+	input{
+		border-style: none none solid !important;
+		border-width: medium medium 1px !important;
+
+	}
+	.input-field input{
+		padding-left: 0rem;
+		font-size: 1rem;
+	}
+	.btn{
+		background: transparent;
+		input{
+			font-size: 15px;
+			position: relative;
+			top: -3px;
+			border-style: none;
+			border-width: 0px !important;
+		}
+	}
+}
+.gs-login-container{
+	
+}
+.gs-lc-inner{
+	background: rgba(52, 74, 128, 0.5);
+}
+/*design for login page end*/
+
+/*side nav start*/
+
+.gs-sidenav{
+	margin-top: 64px;
+	height: 90%;
+}
+.side-nav .userView .circle {
+    height: 120px;
+    width: 120px;
+}
+/*side nav end*/
+
+/*add member start*/
+.tabs .tab a{
+	color: #2c3e50;
+}
+
+.tabs .tab a:hover {
+    color: #6c7986;
+}
+
+.tabs .indicator{
+	background: #2c3e50;
+}
+
+
+
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+    position: static;
+    left: -9999px;
+    opacity: 1;
+}
+
+
+
+/*Dashboard design Start*/
+.gs-dashboard{
+	background: url("../img/bg.jpg");
+	background-size: cover;
+	color: #fff;
+	min-height: 700px;
+
+	nav {
+		background-color: rgba(0,0,0, 0.4);
+		box-shadow: 0 0 0 0;
+	}
+
+	.side-nav{
+		background-color: rgba(0,0,0, 0.4);
+		box-shadow: 0 0 0 0;
+		i, a{color: #fff;}
+	}
+
+	.side-nav li:nth-child(01){
+		background-color: rgba(0,0,0, 0.2);
+		a span{
+			color: #fff;
+		}
+	}
+	.side-nav li > a > i, .side-nav li > a > [class^="mdi-"], .side-nav li > a > [class*="mdi-"], .side-nav li > a > i.material-icons{
+		margin: 0;
+	}
+
+	.card{
+		background: rgba(0,0,0, 0.3);
+		color: #fff;
+
+		box-shadow: 0 0px 0px 0 rgba(0,0,0,0.16), 0 0px 0px 0 rgba(0,0,0,0.12);
+	}
+
+
+	.row .col.l10 {
+	    margin-left: 4%;
+	    width: 78.333%;
+	}
+
+	.gs-menu-left-item li:nth-child(1){
+		width: 260px;
+	}
+	.gs-menu-left-item li:nth-child(2){
+		background: rgba(0,0,0, 0.1);
+		input{
+			margin: 0;
+		}
+	}
+	.gs-name-filter{
+		padding: 30px 0;
+	}
+	.gs-menu-right-item li{
+		width: 70px;
+		font-size: 20px;
+		text-align: center;
+		margin-right: 20px;
+	}
+
+	.gs-day-filter li{
+		float: left;
+		width: 49%;
+		margin-left: 1px;
+		text-align: center;
+		background: rgba(0,0,0, 0.2);
+	}
+
+	.gs-circle-info ul{
+		text-align: center;
+	}
+	.gs-circle-info li:nth-child(1){
+		height: 90px;
+		width: 90px;
+		border-radius: 100%;
+		border: 2px solid rgba(0,0,0, 0.2);
+		position: relative;
+		left: 70px;
+		p{
+			line-height: 50px;
+		}
+	}
+	.card.small{
+		height: auto;
+	}
+
+	.tabs{
+		background: rgba(0,0,0, 0.4);
+		margin-top: 8px;
+		a{
+			color: #fff;
+		}
+	}
+
+	.tabs .indicator{
+		background: #fff;
+	}
+}
+/*Dashboard design End*/
